@@ -1,9 +1,9 @@
 # Customer Support Page
 
 
-## Technical Objective:
+## Technical Objective
 
-Build a small application using AJAX call to specified website. Use the fetched data to populate a table with drag and drop functionality.
+Build a new Customer Support marketing page from the design package provided.
 
 
 ## Built With
