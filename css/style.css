@@ -10,13 +10,13 @@ body {
 h1 {
   line-spacing: 1.6;
   font-weight: lighter;
-  font-size: 3.375rem;
+  font-size: 54px;
   text-align:center;
 }
 
 h2 {
   font-weight: bolder;
-  font-size: 1.6rem;
+  font-size: 1.675rem;
   text-align:center;
 }
 
@@ -28,11 +28,10 @@ h3 {
 
 h4 {
   line-height: 1.08;
-  font-weight: lighter;
-  font-size: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
   text-align: center;
 }
-
 
 /*Content Styling*/
 
@@ -49,13 +48,27 @@ h4 {
 }
 
 .headline-narrow {
-  max-width: 800px;
+  max-width: 880px;
   margin: 10rem auto 0 auto;
-  padding-bottom: .9375rem;
+  padding-bottom: 3.5rem;
 }
 
-.item-description {
-  padding: 0 2.1875rem 1px 2.1875rem;
+
+/*Grid Content Styling*/
+.item-description{
+  line-height: 23px;
+  position: relative;
+  margin-top: 10px;
+  text-align: center;
+  /*padding: 0 1rem 10px 1rem;*/
+}
+
+.item-description--narow{
+  max-width: 10px;
+}
+
+.item-wrapper{
+  padding-bottom: 30px;
 }
 
 /*Buttons & Links*/
@@ -80,6 +93,9 @@ h4 {
   font-weight: bold;
   font-size: 0.8125rem;
   text-align: center;
+  letter-spacing: .1rem;
+  display: block;
+  padding: 1rem 1rem 0 1rem;
 }
 
 /*Grid Styling*/
@@ -88,8 +104,7 @@ h4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
-  margin-left: 6.875rem;
-  margin-right: 6.875rem;
+  margin: 0 10rem 0 10rem;
 }
 
 .grid-item{
@@ -97,7 +112,7 @@ h4 {
   border-style: solid;
   border-color: rgb(232, 232, 232);
   border-width: .125rem;
-  padding-bottom: 3.125rem;
+  padding: 0 2.1875rem 0 2.1875rem;
 }
 
 .grid-section-item{
@@ -105,9 +120,7 @@ h4 {
   border-style: solid;
   border-color: rgb(232, 232, 232);
   border-width: .125rem;
-  margin-left: 6.875rem;
-  margin-right: 6.875rem;
-  margin-bottom: 1rem;
+  margin: 0 10rem 1rem 10rem;
 }
 
 /*Icon Styling*/
@@ -116,7 +129,7 @@ h4 {
   margin-top: 2rem;
 }
 .grid-icon {
-  margin-top: 1.875rem;
+  margin: 1.875rem 0 .2rem 0;
 }
 
 /*Subheader*/
@@ -133,4 +146,21 @@ h4 {
   background-color: rgb(43, 43, 43);
   margin-top: auto;
   height: 4.375rem;
+}
+
+.greenhouse-logo{
+  height: 70px;
+  float: left;
+}
+
+.social-media-wrapper{
+  padding-top: 25px;
+  float: right;
+  padding-right: 50px;
+}
+
+.logo{
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
 }
