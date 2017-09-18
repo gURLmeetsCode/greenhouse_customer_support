@@ -1,0 +1,136 @@
+
+/* Global Stylying */
+body {
+    font-family: AkkuratStd, sans-serif;
+    color: #686868;
+    text-align: center;
+    font-size: 1.0625rem;
+}
+
+h1 {
+  line-spacing: 1.6;
+  font-weight: lighter;
+  font-size: 3.375rem;
+  text-align:center;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 1.6rem;
+  text-align:center;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h4 {
+  line-height: 1.08;
+  font-weight: lighter;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+
+/*Content Styling*/
+
+.wrapper {
+  background: url(../assets/flower.png) right 10% no-repeat;
+  background-color: rgb(247, 247, 247);
+  background-size: 35%;
+  padding-left: 23px;
+  padding-right: 23px;
+  overflow: hidden;
+  max-width: 1236px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headline-narrow {
+  max-width: 800px;
+  margin: 10rem auto 0 auto;
+  padding-bottom: .9375rem;
+}
+
+.item-description {
+  padding: 0 2.1875rem 1px 2.1875rem;
+}
+
+/*Buttons & Links*/
+
+.btn-blue {
+  background-color: rgb(131, 173, 217);
+  color: #FFF;
+  text-decoration: none;
+  padding: .5rem 1.5rem .5rem 1.5rem;
+  display: inline-block;
+  margin: 1.2rem 0 3.5rem 0;
+  font-weight: bolder;
+  font-size: .8rem;
+  text-align: center;
+  border-radius: .2rem;
+}
+
+.section-links{
+  text-decoration: none;
+  color: #009991;
+  line-spacing: 1.39;
+  font-weight: bold;
+  font-size: 0.8125rem;
+  text-align: center;
+}
+
+/*Grid Styling*/
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-left: 6.875rem;
+  margin-right: 6.875rem;
+}
+
+.grid-item{
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: rgb(232, 232, 232);
+  border-width: .125rem;
+  padding-bottom: 3.125rem;
+}
+
+.grid-section-item{
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: rgb(232, 232, 232);
+  border-width: .125rem;
+  margin-left: 6.875rem;
+  margin-right: 6.875rem;
+  margin-bottom: 1rem;
+}
+
+/*Icon Styling*/
+
+.help-icon{
+  margin-top: 2rem;
+}
+.grid-icon {
+  margin-top: 1.875rem;
+}
+
+/*Subheader*/
+.subheader{
+  text-align: center;
+  padding-top: .625rem;
+  padding-bottom: .625rem;
+  font-weight: lighter;
+  font-size: 1.25rem;
+}
+
+/*Footer Styling */
+.footer {
+  background-color: rgb(43, 43, 43);
+  margin-top: auto;
+  height: 4.375rem;
+}
