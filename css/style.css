@@ -36,9 +36,9 @@ h4 {
 /*Content Styling*/
 
 .wrapper {
-  background: url(../assets/flower.png) right 10% no-repeat;
-  background-color: rgb(247, 247, 247);
-  background-size: 35%;
+  background: url(../assets/flower.png) right 5% no-repeat;
+  background-color: rgba(247, 247, 247, 0.5);
+  background-size: 23%;
   padding-left: 23px;
   padding-right: 23px;
   overflow: hidden;
@@ -49,7 +49,7 @@ h4 {
 
 .headline-narrow {
   max-width: 880px;
-  margin: 10rem auto 0 auto;
+  margin: 6rem auto 0 auto;
   padding-bottom: 3.5rem;
 }
 
