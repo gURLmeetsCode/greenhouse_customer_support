@@ -17,17 +17,17 @@ Build a new Customer Support marketing page from the design package provided.
 For basic install choose either option: download zip or clone the repo.
 
 Dowloading Zip
-Go to the following [web address](https://github.com/gURLmeetsCode/greenhouse_customer_support)
-Click download or zip button
-Select 'Download Zip'
+* Go to the following [web address](https://github.com/gURLmeetsCode/greenhouse_customer_support)
+* Click download or zip button
+* Select 'Download Zip'
 
 Cloning Repo
-From terminal on MacOS or command line on Windows
-Type 'git clone https://github.com/gURLmeetsCode/greenhouse_customer_support.git'
-Then cd into the project folder
+* From terminal on MacOS or command line on Windows
+* Type 'git clone https://github.com/gURLmeetsCode/greenhouse_customer_support.git'
+* Then cd into the project folder
 
 Browser Viewing
-Double click on 'index.html' from the project folder. This will bring up the webpage in google chrome browser.
+* Double click on 'index.html' from the project folder. This will bring up the webpage in google chrome browser.
 
 ## Author
 
