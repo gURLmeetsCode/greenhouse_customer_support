@@ -55,20 +55,16 @@ h4 {
 
 
 /*Grid Content Styling*/
+
 .item-description{
   line-height: 23px;
   position: relative;
-  margin-top: 10px;
+  margin-top: 5px;
   text-align: center;
-  /*padding: 0 1rem 10px 1rem;*/
-}
-
-.item-description--narow{
-  max-width: 10px;
 }
 
 .item-wrapper{
-  padding-bottom: 30px;
+  padding: 0 2.5rem 30px 2.5rem;
 }
 
 /*Buttons & Links*/
@@ -94,9 +90,8 @@ h4 {
   font-size: 0.8125rem;
   text-align: center;
   letter-spacing: .1rem;
-  display: block;
-  padding: 1rem 1rem 0 1rem;
 }
+
 
 /*Grid Styling*/
 
@@ -112,7 +107,6 @@ h4 {
   border-style: solid;
   border-color: rgb(232, 232, 232);
   border-width: .125rem;
-  padding: 0 2.1875rem 0 2.1875rem;
 }
 
 .grid-section-item{
@@ -133,6 +127,7 @@ h4 {
 }
 
 /*Subheader*/
+
 .subheader{
   text-align: center;
   padding-top: .625rem;
