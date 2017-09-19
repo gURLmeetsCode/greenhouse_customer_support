@@ -16,7 +16,7 @@ Build a new Customer Support marketing page from the design package provided.
 
 For basic install choose either option: download zip or clone the repo.
 
-Dowloading Zip
+Downloading Zip
 * Go to the following [web address](https://github.com/gURLmeetsCode/greenhouse_customer_support)
 * Click download or zip button
 * Select 'Download Zip'
