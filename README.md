@@ -29,16 +29,15 @@ Cloning Repo
 Browser Viewing
 * Double click on 'index.html' from the project folder. This will bring up the webpage in google chrome browser.
 
-## Author
-
-* **Natasha Kelly** - *Github Profile* - [gURLmeetsCode](https://github.com/gURLmeetsCode)
+If you do not have Google Chrome installed you can download it [here](https://www.google.com/chrome/browser/desktop/index.html)
 
 
 ## Notes
 
 * Opted to use css-grid styling instead of flexbox for more browser support. IE 8 does not support flexbox without a third party library.
 * Used 'rem' instead of pixels, percents, em's because rem is friendly to users who may have the root width set to a different value due to visual impairment.
-* Integrated a responsive design for tablet and mobile friendly use.
+* Added meta data for SEO purposes.
+* Utilized media queries for mobile friendly use(specifically devices larger than 530px and less than 800px).
 
 
 ## Acknowledgments
